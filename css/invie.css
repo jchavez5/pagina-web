@@ -44,7 +44,7 @@ button{
 .portada{
     padding: 10px;
     background-image:url('../imagenes/background.png');
-    color: white;
+    color: red;
     
 }
 .portada button{
