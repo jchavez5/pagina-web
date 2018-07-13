@@ -1,0 +1,98 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Allerta', sans-serif; */
+*{
+    /* padding: 10px 5px 10px 5px ; */
+    /* padding: 10px;
+    margin: 10px;
+    border: 1px solid red; */
+}
+body{
+    margin :0;
+    font-family: 'Allerta', sans-serif;
+}
+button{
+    border-radius: 5px;
+    background: #fd324e;
+    color: white;
+    border:none;
+    padding: 7px;
+}
+.titulo{    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    margin-bottom: 15px;
+    margin:o;
+}
+.tittle-a{  
+    font-size: 24px;
+    margin-top: 0;
+}
+.tittle-b{
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+.guitarras{
+    color: #1f313c;
+    
+}
+.guitarras h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.portada{
+    padding: 10px;
+    background-image:url('../imagenes/background.png');
+    color: white;
+    
+}
+.portada button{
+    margin-bottom: 70px;
+}
+.menu{
+    font-size: 24px;
+}
+.logotipo,.menu, .menu li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.contenedor{
+width: 800px;
+margin: auto;
+}
+.guitarra{
+    border: 1px solid  #1f313c;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.guitarra ol{
+    padding: 0px;
+}
+
+.numero-a{
+    float:  right;
+    position: relative;
+    top: -140px;
+}
+.numero-b{
+    float:  left;
+    position: relative;
+    top: 80px;
+}
+.contenedor-guitarra{
+padding-left: 10px;
+}
+.footer{
+    background: #1f313c;
+}
+.contacto img{
+    display: block;
+}
+.contacto strong{
+    display: block;
+}
+.contacto a{
+    color: white;
+}

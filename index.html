@@ -1,54 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Invite -tus mejores guitarras</title>
+    <title>Invite - tus mejores guitarras</title>
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/invie.css">
 </head>
 <body>
     <!-- header -->
-    <header>
-        <figure>
-            <img src="" alt=""><!-- logo -->
+       <header id="header " class="header contenedor">
+        <figure class="logotipo">
+            <img src="imagenes/invie.png" width="186" height="60" alt="Invie o logotipo"><!-- logo -->
         </figure>
-        <nav><!-- hipervinculo -->
-            <ul><li><a href="">home</a></li>
-                <li><a href="">precios</a></li>
+        <nav class="menu"><!-- menu -->
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="#guitarras">guitarras</a></li>
+                <li><a href="precios.html">precios</a></li>
             </ul>
         </nav>  
     </header>
     <!-- portada -->
-    <section>
-        
-        <h1>Guitarras invisibles</h1><!-- titulo principal -->        
-        <h3>Se la estrella de rock que siempre quiciste ser</h3><!-- resumen -->
-        <button>conocenos mas</button><!-- boton -->
+    <section id="portada " class="portada ">
+        <div class="contenedor">
+            <h1 class="titulo">Guitarras invisibles</h1><!-- titulo principal -->        
+            <h3 class="tittle-a">Se la estrella de rock que siempre quiciste ser</h3><!-- resumen -->
+            <button>conocenos mas</button><!-- boton -->
+        </div>
     </section>
     <!-- guitarras -->
-    <section >
+    <section id="guitarras " class="guitarras contenedor">
         <h2>Nuestra guitarras</h2> <!-- titulo -->
-        <article>
-            <img src="" alt="">
-            <h3>Invite Acustica</h3>
-            <ol>
-                <li>Estilo vintage</li>
-                <li>Madera pura</li>
-                <li>Incluye estuche de aluminio</li>
-            </ol>
-        </article> <!-- article -->
-        <article>
-                <img src="" alt="">
-                <h3>Invie classic</h3>
+        <article class="guitarra">
+            <img class="numero-a" src="imagenes/invie-acustica.png" alt="Guitara invie" width="350">
+            <div class="contenedor-guitarra">
+                <h3 class="tittle-b">Invite Acustica</h3>
                 <ol>
                     <li>Estilo vintage</li>
                     <li>Madera pura</li>
-                    <li>Inicia tu camino como RockStar</li>
+                    <li>Incluye estuche de aluminio</li>
                 </ol>
+             </div>
+        </article> <!-- article -->
+        <article class="guitarra " > 
+                <img class="numero-b" src="imagenes/invie-classic.png" alt="Guitarra acustica" width="350">
+                <div class="contenedor-guitarra">
+                    <h3 class="tittle-b">Invie classic</h3>
+                    <ol>
+                        <li>Estilo vintage</li>
+                        <li>Madera pura</li>
+                        <li>Inicia tu camino como RockStar</li>
+                    </ol>
+            </div>
             </article> <!-- article -->
     </section>
     <!-- pie de pagina -->
-    <footer>pie de pagina</footer>
+    <footer id="footer " class="footer ">
+        <div class="contenedor">
+            <div class="contacto">
+                <img src="../imagenes/invie-white.png" alt="logotico en blanco">
+                <a href="tel:+573043771550"><strong>Telefono</strong> <span>3043771550</span></a>
+                <a href="maito:josechavez1796@gmail.com"><strong>Email:</strong><span>josechavez1796@gmail.com</span></a>
+            </div>
+            <form class="formulario">
+                <label for="">Nombre</label>
+                <input type="text" required name="nombre" placeholder="pon tu nombre " id="nombre"/>
+                <label for="">Email</label>
+                <input type="email" required name="apellido" placeholder="colco tu email" id="email"/>
+                <div class="sexo">
+                        <label for="mujer">
+                            <input type="radio" id="mujer" name="sexo">mujer
+                        </label>
+                        <label for="hombre">
+                            <input type="radio" id="hombre" name="sexo">hombre
+                         </label>
+                </div>
+                <div class="intereses">
+                    <label for="">
+                        <input type="checkbox" name="" id="cotizacion">Cotizacion
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="" id="reclmamos">Reclamos
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="" id="comentario">Comentarios
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="" id="otros">otros
+                    </label>
+                </div>
+                <div class="comentarios">
+                    <label for="comentarios"Comentarios></label>
+                    <textarea name="comentrio" id="comentarios" cols="30" rows="7"></textarea>
+                    <input type="submit">Enviar
+                </div>
+               
+            </form>
+        </div>
+    </footer>
+
 
 </body>
 </html>
